@@ -6,7 +6,7 @@
     --cor-contraste: #f3eef7;
     --cor-botao: #f9f9f9;
 
-    --fonte-texto:´Segoe UI´, sans-serif;
+    --fonte-texto:'Segoe UI', sans-serif;
 }
 *{
     transition: background-color 0.8s ease;
@@ -19,4 +19,25 @@
     --cor-contraste: #1e293b;
     --cor-botao: #151428;
 
+}
+.tema-escuro p{
+    color: var(--cor-texto);
+}
+
+.tema-escuro header p {
+    color: var(--cor-texto);
+    font-weight: 600;
+}
+
+.tema-escuro a {
+    color: var(--cor-secundaria);
+}
+.tema-escuro button {
+    border:none;
+    background-color: var(--cor-botao);
+    color: var(--cor-texto);
+}
+
+.tema-escuro article {
+    background-color: #
 }
